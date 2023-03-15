@@ -11,7 +11,7 @@ class marketview {
     let selector = document.getElementById("itemchoice")
     for( const [key, value] of Object.entries(self.data) ){
       let newoption = document.createElement("option")
-      let formattedName = `${key}: ${self.items[key].name}`
+      let formattedName = `${key}: ${(self.items[key].name ?? "")}`
       newoption.value = key
       newoption.innerText = formattedName // Grab from external json
       selector.append(newoption)
@@ -56,7 +56,7 @@ class marketview {
         x: item.time,
         y: item.price,
         type: 'scatter',
-        name: self.items[choice].name,
+        name: (self.items[choice].name ?? ""),
       };
       traces.push(trace);
     }
@@ -94,7 +94,7 @@ class marketview {
         x: item.time,
         y: item.price,
         type: 'scatter',
-        name: self.items[choice].name,
+        name: (self.items[choice].name ?? ""),
       };
       traces.push(trace);
     }
@@ -108,7 +108,7 @@ class marketview {
     let expression = new RegExp(value);
     self.itemSort = [];
     for( const [id, item] of Object.entries(self.items) ){
-      if( expression.test(item.name.toLowerCase()) ||
+      if( expression.test((item.name ?? "").toLowerCase()) ||
           expression.test(item.class.toLowerCase()) ){
         self.itemSort.push(id);
       }
