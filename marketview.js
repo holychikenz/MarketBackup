@@ -1,7 +1,7 @@
 class marketview {
   constructor(data){
     this.data = data;
-    getJSON("https://raw.githubusercontent.com/holychikenz/ISMonkey/main/data/itemsFull.json").then(
+    getJSON("https://raw.githubusercontent.com/holychikenz/ISMonkey/main/data/itemsComplete.json").then(
       data => {this.items = data; this.setupUI()});
   }
   setupUI(){
