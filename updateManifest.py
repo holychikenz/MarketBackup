@@ -8,7 +8,7 @@ def main():
     pathToFile = os.path.abspath(os.path.dirname(__file__))
     latestfile = f'{pathToFile}/latest.json'
     manfile = f'{pathToFile}/marketmanifest.json'
-    currentManifest = requests.get("https://idlescape.com/api/market/manifest").json()
+    currentManifest = requests.get("https://play.idlescape.com/api/market/manifest").json()
     if currentManifest['status'] != 'Success':
         print("No good")
         return

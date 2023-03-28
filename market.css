@@ -1,6 +1,6 @@
 body {
   background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-    url("https://idlescape.com/images/ui/stone_ui_tile_dark_gray.png");
+    url("https://play.idlescape.com/images/ui/stone_ui_tile_dark_gray.png");
   overflow: hidden;
   scrollbar-color: #767677 #1e1e1f;
   scrollbar-width: thin;
@@ -23,7 +23,7 @@ body {
 }
 
 .filter {
-  background-image: url('https://idlescape.com/images/16px/search.png');
+  background-image: url('https://play.idlescape.com/images/16px/search.png');
   background-position: 10px 12px;
   background-repeat: no-repeat;
   background-size: 16px;
@@ -64,7 +64,7 @@ body {
   /*text-shadow: 2px 2px 0px  #000, -2px -2px 0px  #000, 2px -2px 0px  #000, -2px 2px 0px  #000;*/
   background-size: 100% 100%;
   background-image: linear-gradient(180deg,rgba(34,211,255,.37),rgba(34,211,255,.37))
-    ,url(https://idlescape.com/images/ui/frame_icon.png);
+    ,url(https://play.idlescape.com/images/ui/frame_icon.png);
 }
 
 .clickMarketItem img{
@@ -99,55 +99,55 @@ body {
 }
 
 .ore {
-    background-image: linear-gradient(180deg,rgba(56,19,1,.7),rgba(56,19,1,.7)),url(https://idlescape.com/images/ui/frame_icon.png)
+    background-image: linear-gradient(180deg,rgba(56,19,1,.7),rgba(56,19,1,.7)),url(https://play.idlescape.com/images/ui/frame_icon.png)
 }
 
 .bar {
-    background-image: linear-gradient(180deg,rgba(39,39,39,.7),rgba(39,39,39,.7)),url(https://idlescape.com/images/ui/frame_icon.png)
+    background-image: linear-gradient(180deg,rgba(39,39,39,.7),rgba(39,39,39,.7)),url(https://play.idlescape.com/images/ui/frame_icon.png)
 }
 
 .log {
-    background-image: linear-gradient(180deg,rgba(6,53,8,.7),rgba(6,53,8,.7)),url(https://idlescape.com/images/ui/frame_icon.png)
+    background-image: linear-gradient(180deg,rgba(6,53,8,.7),rgba(6,53,8,.7)),url(https://play.idlescape.com/images/ui/frame_icon.png)
 }
 
 .seed {
-    background-image: linear-gradient(180deg,rgba(13,95,17,.6),rgba(13,95,17,.6)),url(https://idlescape.com/images/ui/frame_icon.png)
+    background-image: linear-gradient(180deg,rgba(13,95,17,.6),rgba(13,95,17,.6)),url(https://play.idlescape.com/images/ui/frame_icon.png)
 }
 
 .equipment {
-    background-image: linear-gradient(180deg,rgba(87,104,253,.199),rgba(87,104,253,.199)),url(https://idlescape.com/images/ui/frame_icon.png)
+    background-image: linear-gradient(180deg,rgba(87,104,253,.199),rgba(87,104,253,.199)),url(https://play.idlescape.com/images/ui/frame_icon.png)
 }
 
 .gem {
-    background-image: linear-gradient(180deg,rgba(34,211,255,.37),rgba(34,211,255,.37)),url(https://idlescape.com/images/ui/frame_icon.png)
+    background-image: linear-gradient(180deg,rgba(34,211,255,.37),rgba(34,211,255,.37)),url(https://play.idlescape.com/images/ui/frame_icon.png)
 }
 
 .rune {
-    background-image: radial-gradient(circle,rgba(110,180,255,.486) 0,rgba(61,61,61,.37) 100%),url(https://idlescape.com/images/ui/frame_icon.png)
+    background-image: radial-gradient(circle,rgba(110,180,255,.486) 0,rgba(61,61,61,.37) 100%),url(https://play.idlescape.com/images/ui/frame_icon.png)
 }
 
 .fish {
-    background-image: linear-gradient(180deg,rgba(64,224,208,.37),rgba(64,224,208,.37)),url(https://idlescape.com/images/ui/frame_icon.png)
+    background-image: linear-gradient(180deg,rgba(64,224,208,.37),rgba(64,224,208,.37)),url(https://play.idlescape.com/images/ui/frame_icon.png)
 }
 
 .cooking-ingredient {
-    background-image: linear-gradient(180deg,rgba(65,147,255,.37),rgba(65,147,255,.37)),url(https://idlescape.com/images/ui/frame_icon.png)
+    background-image: linear-gradient(180deg,rgba(65,147,255,.37),rgba(65,147,255,.37)),url(https://play.idlescape.com/images/ui/frame_icon.png)
 }
 
 .cookedFish {
-    background-image: linear-gradient(180deg,rgba(210,154,69,.1450980392156863),rgba(210,154,69,.1450980392156863)),url(https://idlescape.com/images/ui/frame_icon.png)
+    background-image: linear-gradient(180deg,rgba(210,154,69,.1450980392156863),rgba(210,154,69,.1450980392156863)),url(https://play.idlescape.com/images/ui/frame_icon.png)
 }
 
 .enchanted-scroll {
-    background-image: linear-gradient(180deg,rgba(56,19,1,.7),rgba(56,19,1,.7)),url(https://idlescape.com/images/ui/frame_icon.png)
+    background-image: linear-gradient(180deg,rgba(56,19,1,.7),rgba(56,19,1,.7)),url(https://play.idlescape.com/images/ui/frame_icon.png)
 }
 
 .gold-medal {
-    background-image: radial-gradient(circle,rgba(217,255,0,.719) 0,rgba(251,255,0,.192) 100%),url(https://idlescape.com/images/ui/frame_icon.png)
+    background-image: radial-gradient(circle,rgba(217,255,0,.719) 0,rgba(251,255,0,.192) 100%),url(https://play.idlescape.com/images/ui/frame_icon.png)
 }
 
 .silver-medal {
-    background-image: radial-gradient(circle,hsla(0,0%,100%,.719) 0,rgba(44,44,44,.192) 100%),url(https://idlescape.com/images/ui/frame_icon.png)
+    background-image: radial-gradient(circle,hsla(0,0%,100%,.719) 0,rgba(44,44,44,.192) 100%),url(https://play.idlescape.com/images/ui/frame_icon.png)
 }
 ::-webkit-scrollbar {
     width: 10px

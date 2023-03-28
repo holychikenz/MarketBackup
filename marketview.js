@@ -129,7 +129,7 @@ class marketview {
         itemDiv.className = `clickMarketItem ${self.items[item].class}`;
         let icon = document.createElement("img");
         let baseImage = (self.items[item].itemIcon ?? (self.items[item].itemImage ?? ""))
-        icon.src = `https://idlescape.com/${baseImage}`;
+        icon.src = `https://play.idlescape.com/${baseImage}`;
         itemDiv.append(icon);
         // Name
         let itemName = document.createElement("div");
